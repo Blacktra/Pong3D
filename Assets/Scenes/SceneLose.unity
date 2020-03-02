@@ -120,6 +120,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &47871430 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5033354866517061097, guid: 55fc13fe0e4ccac4db0c5e028772d33b,
+    type: 3}
+  m_PrefabInstance: {fileID: 538899294}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7361d8466b3f63a44ae75075b4dd4fba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &143733498
 GameObject:
   m_ObjectHideFlags: 0
@@ -156,7 +168,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.555, y: 0.08857522}
   m_AnchorMax: {x: 0.953788, y: 0.22115044}
-  m_AnchoredPosition: {x: 0.19999695, y: -0.9000015}
+  m_AnchoredPosition: {x: 0.19998169, y: -0.9000015}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &143733500
@@ -201,7 +213,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 143733501}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 47871430}
+        m_MethodName: ChangeSceneTo
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Clase 1
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &143733501
@@ -242,6 +265,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143733498}
   m_CullTransparentMesh: 0
+--- !u!1001 &538899294
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5033354866517061098, guid: 55fc13fe0e4ccac4db0c5e028772d33b,
+        type: 3}
+      propertyPath: m_Name
+      value: scenechanger
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033354866517061096, guid: 55fc13fe0e4ccac4db0c5e028772d33b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.004162
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033354866517061096, guid: 55fc13fe0e4ccac4db0c5e028772d33b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.280657
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033354866517061096, guid: 55fc13fe0e4ccac4db0c5e028772d33b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.964312
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033354866517061096, guid: 55fc13fe0e4ccac4db0c5e028772d33b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033354866517061096, guid: 55fc13fe0e4ccac4db0c5e028772d33b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033354866517061096, guid: 55fc13fe0e4ccac4db0c5e028772d33b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033354866517061096, guid: 55fc13fe0e4ccac4db0c5e028772d33b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033354866517061096, guid: 55fc13fe0e4ccac4db0c5e028772d33b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033354866517061096, guid: 55fc13fe0e4ccac4db0c5e028772d33b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033354866517061096, guid: 55fc13fe0e4ccac4db0c5e028772d33b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033354866517061096, guid: 55fc13fe0e4ccac4db0c5e028772d33b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55fc13fe0e4ccac4db0c5e028772d33b, type: 3}
 --- !u!1 &877921720
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,7 +702,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.04350624, y: 0.08857522}
   m_AnchorMax: {x: 0.4424938, y: 0.22115044}
-  m_AnchoredPosition: {x: 0.1000061, y: -0.19999695}
+  m_AnchoredPosition: {x: 0.099975586, y: -0.19999695}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1514990544
@@ -655,7 +747,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1514990545}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 47871430}
+        m_MethodName: ChangeSceneTo
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Clase 1
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1514990545
