@@ -562,7 +562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 2021235848}
-  speed: 0.2
+  speed: 0.1
 --- !u!1001 &371972639
 PrefabInstance:
   m_ObjectHideFlags: 0
