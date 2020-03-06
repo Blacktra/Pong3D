@@ -26,6 +26,6 @@ public class PlayerController : MonoBehaviour{
     {
          Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        transform.position = new Vector3(transform.position.x, Mathf.Clamp(mousePos.y, -0.55f, 15f), transform.position.z);
+        transform.position = new Vector3(transform.position.x, Mathf.Clamp(mousePos.y, -8.52f, 7.13f), transform.position.z);
     }
 }

@@ -19,10 +19,10 @@ public class BotPaddle : MonoBehaviour
         {
         if(transform.position.y<ball.position.y)
           {
-           transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y +speed, -0.24f, 14.6f), transform.position.z);
+           transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y +speed, -8.15f, 6.84f), transform.position.z);
           }else if (transform.position.y > ball.position.y)
           {
-             transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y -speed, -0.24f, 14.6f), transform.position.z); 
+             transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y -speed, -8.15f, 6.84f), transform.position.z); 
           }
         }
        }
