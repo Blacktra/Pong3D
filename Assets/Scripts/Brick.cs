@@ -5,6 +5,8 @@ using UnityEngine;
 public class Brick : MonoBehaviour
 {
     public ParticleSystem particle;
+    public int limitcount;
+    public int count;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +22,10 @@ public class Brick : MonoBehaviour
     private void OnCollisionEnter(Collision other){ 
     if (other.gameObject.CompareTag("Ball"))
     {
+        count++;
+        if (count >= limitcount)
+        count = 0;
             particle.Play();
-
 
         Destroy(this.gameObject);
     }
