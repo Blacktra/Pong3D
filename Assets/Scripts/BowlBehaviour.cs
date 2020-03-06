@@ -33,4 +33,8 @@ public class BowlBehaviour : MonoBehaviour
             }
         }
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        ballAudio.Play();
+    }
 }
